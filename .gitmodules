@@ -1,0 +1,24 @@
+[submodule "workspace/fasthttp"]
+	path = workspace/fasthttp
+	url = https://github.com/valyala/fasthttp.git
+[submodule "workspace/gopkg"]
+	path = workspace/gopkg
+	url = https://github.com/bytedance/gopkg.git
+[submodule "workspace/gin"]
+	path = workspace/gin
+	url = https://github.com/gin-gonic/gin.git
+[submodule "workspace/fastcache"]
+	path = workspace/fastcache
+	url = https://github.com/VictoriaMetrics/fastcache.git
+[submodule "workspace/skipmap"]
+	path = workspace/skipmap
+	url = https://github.com/zhangyunhao116/skipmap.git
+[submodule "workspace/skipset"]
+	path = workspace/skipset
+	url = https://github.com/zhangyunhao116/skipset.git
+[submodule "workspace/umap"]
+	path = workspace/umap
+	url = https://github.com/zhangyunhao116/umap.git
+[submodule "workspace/kubernetes"]
+	path = workspace/kubernetes
+	url = https://github.com/kubernetes/kubernetes.git

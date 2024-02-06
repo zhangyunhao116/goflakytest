@@ -4,9 +4,6 @@
 [submodule "workspace/gopkg"]
 	path = workspace/gopkg
 	url = https://github.com/bytedance/gopkg.git
-[submodule "workspace/gin"]
-	path = workspace/gin
-	url = https://github.com/gin-gonic/gin.git
 [submodule "workspace/fastcache"]
 	path = workspace/fastcache
 	url = https://github.com/VictoriaMetrics/fastcache.git
@@ -22,3 +19,6 @@
 [submodule "workspace/kubernetes"]
 	path = workspace/kubernetes
 	url = https://github.com/kubernetes/kubernetes.git
+[submodule "workspace/hcl"]
+	path = workspace/hcl
+	url = https://github.com/hashicorp/hcl.git

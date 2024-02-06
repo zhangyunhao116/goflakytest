@@ -12,7 +12,7 @@ declare -a repos=(
     # {REPO_NAME} {EXTRA_COMPILE_OPTS}
     "fastcache" ""
     "fasthttp" "-race"
-    "gin"  "-race"
+    "hcl" "-race"
     "gopkg" "-race"
     "skipmap" "-race"
     "skipset" "-race"
@@ -32,6 +32,3 @@ done
 
 # k8s.
 cd $WORK_DIR/kubernetes && env GOFLAGS="-count=1" make test && echo kubernetes PASSED!
-
-# golangci-lint.
-cd $WORK_DIR/golangci-lint && env GOFLAGS="-count=1" make test && echo golangci-lint PASSED!

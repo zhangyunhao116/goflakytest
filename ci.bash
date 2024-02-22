@@ -6,6 +6,7 @@ COMPILE_OPTS="$*"
 
 git submodule init
 git submodule sync --recursive
+git submodule update
 
 # Simple tests.
 declare -a repos=(
